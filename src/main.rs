@@ -146,21 +146,6 @@ async fn move_to_next_location(
     Ok(())
 }
 
-async fn start(bot: Bot, dialogue: GameDialogue, msg: Message, route: Route) -> HandlerResult {
-    bot.send_message(msg.chat.id, "Let's start the Amazing Race! Type ")
-        .await?;
-    bot.send_message(msg.chat.id, route.route[0].clue.as_str())
-        .await?;
-    dialogue
-        .update(GameState::ReceiveAnswer {
-            step: 0,
-            hp: MAX_HP,
-            score: 0,
-        })
-        .await?;
-    Ok(())
-}
-
 #[derive(BotCommands, Clone)]
 #[command(
     rename_rule = "lowercase",
@@ -171,6 +156,19 @@ enum Command {
     Help,
     #[command(description = "Start the Amazing Race")]
     StartRace,
+}
+
+async fn start(bot: Bot, dialogue: GameDialogue, msg: Message, route: Route) -> HandlerResult {
+    bot.send_message(msg.chat.id, route.route[0].clue.as_str())
+        .await?;
+    dialogue
+        .update(GameState::ReceiveAnswer {
+            step: 0,
+            hp: MAX_HP,
+            score: 0,
+        })
+        .await?;
+    Ok(())
 }
 
 async fn answer(

@@ -1,24 +1,65 @@
 {
-    "locations": [
-        {
-            "id": 0,
-            "title": "Test title",
-            "clue": "Test clue",
-            "answer": "answer"
-        },
-        
-        {
-            "id": 1,
-            "title": "Test title",
-            "clue": "Test clue 2",
-            "answer": "answer2"
-        },
-        {
-            "id": 2,
-            "title": "Test title",
-            "clue": "Test clue 3",
-            "answer": "answer3"
-        }
-    ],
-    "route" : [0,1,2]
+  "locations": [
+    {
+      "id": 0,
+      "title": "Town Hall Station",
+      "clue": "In the heart of the city, where trains converge, Underneath the hustle, people emerge. A station of grandeur, with history so grand, Start your journey here, where many do stand.",
+      "answer": "Town Hall Station"
+    },
+    {
+      "id": 1,
+      "title": "Queen Victoria Building",
+      "clue": "A queen's name it bears, from an era past, With domes and arches, it’s built to last. Shopping and dining under a clock so tall, Find this palace of commerce and give it your all.",
+      "answer": "Queen Victoria Building"
+    },
+    {
+      "id": 2,
+      "title": "St Andrew's Cathedral",
+      "clue": "Next to Town Hall, with spires that reach high, A place of worship 'neath the Sydney sky. Named for a saint, in gothic style it stands, Seek this sacred space built by many hands.",
+      "answer": "St Andrew's Cathedral"
+    },
+    {
+      "id": 3,
+      "title": "Sydney Tower Eye",
+      "clue": "Reach for the sky, where eagles fly, A needle in the sky, oh so high. For views of the city, look up and see, The tallest structure, where you want to be.",
+      "answer": "Sydney Tower Eye"
+    },
+    {
+      "id": 4,
+      "title": "Hyde Park",
+      "clue": "A green oasis in a city so grand, Statues and fountains on every hand. Named after London’s, a place to unwind, Find this park, where peace you’ll find.",
+      "answer": "Hyde Park"
+    },
+    {
+      "id": 5,
+      "title": "St Mary’s Cathedral",
+      "clue": "Near Hyde Park, with towers twin, A cathedral of grandeur, take a step in. Gothic revival, and windows stained bright, Seek out this church, in the morning light.",
+      "answer": "St Mary’s Cathedral"
+    },
+    {
+      "id": 6,
+      "title": "Sydney Opera House",
+      "clue": "Sails of white, on the harbour they gleam, An architect's dream, now a symbol supreme. Music and theatre within its halls, Find this house where culture calls.",
+      "answer": "Sydney Opera House"
+    },
+    {
+      "id": 7,
+      "title": "Sydney Harbour Bridge",
+      "clue": "An arch of steel, spanning the blue, Climb its heights for a breathtaking view. Connects the north with the south side, Seek this bridge, a landmark worldwide.",
+      "answer": "Sydney Harbour Bridge"
+    },
+    {
+      "id": 8,
+      "title": "The Rocks",
+      "clue": "Cobblestone streets with stories to tell, Australia's first settlement, where history dwells. Markets and pubs in buildings of old, Find this quarter, with tales to unfold.",
+      "answer": "The Rocks"
+    },
+    {
+      "id": 9,
+      "title": "Observatory Hill",
+      "clue": "High above the harbour, where stars are mapped, A hill with a view that can’t be trapped. An old observatory, with vistas wide, Climb this hill, where the city meets the tide.",
+      "answer": "Observatory Hill"
+    }
+  ],
+  "route": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 }
