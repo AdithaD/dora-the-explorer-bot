@@ -1,0 +1,24 @@
+{
+    "locations": [
+        {
+            "id": 0,
+            "title": "Test title",
+            "clue": "Test clue",
+            "answer": "answer"
+        },
+        
+        {
+            "id": 1,
+            "title": "Test title",
+            "clue": "Test clue 2",
+            "answer": "answer2"
+        },
+        {
+            "id": 2,
+            "title": "Test title",
+            "clue": "Test clue 3",
+            "answer": "answer3"
+        }
+    ],
+    "route" : [0,1,2]
+}
