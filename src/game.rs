@@ -26,7 +26,7 @@ pub struct Location {
     pub id: usize,
     pub title: String,
     pub clue: String,
-    pub answer: String,
+    pub answer: Vec<String>,
 }
 
 #[derive(Deserialize, Debug, Clone)]
